@@ -1,3 +1,6 @@
 [submodule "naming_service"]
 	path = naming_service
 	url = https://github.com/FilipeJrd/Cartola-NamingService.git
+[submodule "login"]
+	path = login
+	url = https://github.com/Tpshc/Cartola-Login.git
