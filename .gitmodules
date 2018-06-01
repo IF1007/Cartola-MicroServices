@@ -4,3 +4,6 @@
 [submodule "login"]
 	path = login
 	url = https://github.com/Tpshc/Cartola-Login.git
+[submodule "authentication_middleware"]
+	path = authentication_middleware
+	url = https://github.com/Tpshc/Cartola-AuthenticationMiddleware.git
