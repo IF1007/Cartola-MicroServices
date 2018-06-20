@@ -39,10 +39,21 @@ services:
       - mongo
       - naming-service
       
+  login:
+    build: ./login
+    image: login
+    command: bash -c "sleep 5 && python ./webservice.py"
+    ports:
+      - 3005:3000
+    depends_on: 
+      - naming-service
+
   authentication:
     build: ./authentication_middleware
     image: authenticationmiddleware
+    command: bash -c "sleep 5 && npm start"
     ports:
       - 3002:3002
     depends_on: 
       - naming-service
+      - login
