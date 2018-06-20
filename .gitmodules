@@ -7,3 +7,6 @@
 [submodule "authentication_middleware"]
 	path = authentication_middleware
 	url = https://github.com/Tpshc/Cartola-AuthenticationMiddleware.git
+[submodule "cartola-data-scrapper"]
+	path = cartola-data-scrapper
+	url = https://github.com/dijckstra/cartola-data-scrapper.git
