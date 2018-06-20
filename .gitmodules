@@ -10,3 +10,9 @@
 [submodule "cartola-data-scrapper"]
 	path = cartola-data-scrapper
 	url = https://github.com/dijckstra/cartola-data-scrapper.git
+[submodule "cartola-data-processor"]
+	path = cartola-data-processor
+	url = https://github.com/FilipeJrd/cartola-data-processor.git
+[submodule "cartola-rest-api"]
+	path = cartola-rest-api
+	url = https://github.com/dijckstra/cartola-rest-api.git
