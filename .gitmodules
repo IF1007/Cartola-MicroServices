@@ -16,3 +16,6 @@
 [submodule "cartola-rest-api"]
 	path = cartola-rest-api
 	url = https://github.com/dijckstra/cartola-rest-api.git
+[submodule "Cartola-Interface"]
+	path = Cartola-Interface
+	url = https://github.com/leoribeiro36/Cartola-Interface.git
